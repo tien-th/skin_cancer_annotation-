@@ -11,12 +11,14 @@ This guide provides a concise overview of the Computer Vision Annotation Tool (C
 * **Annotation Job:** The actual process of annotating images or videos within a given task. This is the core work of the annotator.  The task is a collection of individual annotation jobs.
 
 * **Annotation Types:** CVAT supports various annotation methods:
-    * **Bounding Boxes:** Rectangular boxes around objects of interest.
-    * **Polygons:** Irregular shapes precisely outlining objects.
+    * **Bounding Boxes:** Rectangular boxes around objects of interest.  
+      ![Bounding Box](terms/bounding_box.png)
+    * **Polygons:** Irregular shapes precisely outlining objects.  
+      ![Polygon](terms/polygon.png)
     * **Points:** Marking specific locations.
-    * **Polylines:**  Marking lines or paths.
+    * **Polylines:**  Marking lines or paths.  
+      ![Polyline](terms/polyline.png)
     * **Cuboids (3D):**  For annotating three-dimensional data (if applicable to your project).
-
 
 ## Workflow
 
@@ -32,12 +34,10 @@ This guide provides a concise overview of the Computer Vision Annotation Tool (C
 
 6. **Data Formats:**  CVAT supports various data output formats for use in machine learning training pipelines. The required format will be specified by your project administrator.
 
-
 ## Additional Resources
 
 * **CVAT Official Documentation:**  Consult the official documentation for detailed tutorials, advanced features, and troubleshooting assistance.
 
 * **Project Administrator:**  Your project administrator can provide specific guidance and support throughout the annotation process.  They are your main point of contact for any questions.
-
 
 This guide provides a basic understanding of the CVAT annotation process relevant to medical image and video annotation. Remember to always refer to the specific project guidelines and official CVAT documentation for detailed instructions and best practices.
